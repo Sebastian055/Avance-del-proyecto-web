@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /*Clase que permitira cambiar toda la estructura de la pagina (color, tipo de letra, etc */
+    background-color: #1f1d1d;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.header { /*Cabeza de la pagina*/
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.titulo { /*Clase que permitira cambiar el titulo de la pagina (PORTAFOLIO) */
+    font-size: 72px;
+    font-family: 'Garamond', serif;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.nombre {  /*Clase que permitira cambiar las propiedades del nombre */
+    font-size: 12px;
+    font-family: 'Garamond', serif;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+.siguientepag { /*Clase que permitira cambiar las propiedades del boton, el cual llevara a la siguiente pagina */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    color: #1f1d1d;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Garamond', serif;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.siguientepag:hover {
+    background-color: #cccccc;
+}
